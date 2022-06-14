@@ -1,0 +1,37 @@
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7;
+}
+body{
+    background: #333;
+    color: #fff;
+}
+#head-section{
+    background:url(./img/desk1.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 700px;
+}
+.dark-overlay{
+            background: rgba(0,0,0,0.6);
+            min-height: 700px;
+        }
+.fa{
+    background: lightcyan;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.home-inner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+@media(max-width:767px)
+{
+    #head-section h1{
+        font-size: 36px;
+    }
+}
